@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nonFocused {
+  background-color: #f4f4f4;
+}
+
+.focused {
+  background-color: white;
+}
+
+.inputBox {
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  flex: 1;
+  font-size: 14px;
+}
+
+.clearButton {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  outline: 0;
+  border: none;
+  color: lightgray;
+}

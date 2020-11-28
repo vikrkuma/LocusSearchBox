@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "lib": ["es2015", "dom"],
+    "allowJs": false,
+    "jsx": "react",
+    "sourceMap": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "baseUrl": "./src/client",
+    "typeRoots": ["node_modules/@types", "src/typings"],
+    "esModuleInterop": true,
+    "importHelpers": true
+  },
+  "include": ["src/client/**/*"],
+  "exclude": ["node_modules", "dist", "public"]
+}

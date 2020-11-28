@@ -1,0 +1,47 @@
+.wrapper {
+  padding: 9px;
+  box-sizing: border-box;
+  border-top: 1px solid #f4f4f4;
+  font-size: 14px;
+  color: #505050;
+
+  &:hover {
+    background-color: rgb(230, 230, 199);
+  }
+}
+
+.id {
+  color: #102010;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.name {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.foundInItem {
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(66, 93, 243);
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.address {
+  margin: 4px 0;
+}
+
+.pincode {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
